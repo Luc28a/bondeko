@@ -10,28 +10,28 @@
     "id": "2026-01",
     "titre": "Parole à vivre Janvier 2026",
     "date": "01 Janvier 2026",
-    "contenu": "B",
+    "contenu": "# Parole à vivre Janvier 2026",
     "pdf": "https://raw.githubusercontent.com/Luc28a/bondeko/main/pdfs/Parole%20%C3%A0%20vivre%20Janvier%202026.pdf"
   },
   {
     "id": "2026-04",
     "titre": "Parole à vivre Avril 2026",
     "date": "01 Avril 2026",
-    "contenu": "A",
+    "contenu": "# Parole à vivre Avril 2026",
     "pdf": "https://raw.githubusercontent.com/Luc28a/bondeko/main/pdfs/Parole%20%C3%A0%20vivre%20avril%202026.pdf"
   },
   {
     "id": "2025-12",
     "titre": "Parole à vivre Décembre 2025",
     "date": "01 Décembre 2025",
-    "contenu": "F",
+    "contenu": "# Parole à vivre Décembre 2025",
     "pdf": "https://raw.githubusercontent.com/Luc28a/bondeko/main/pdfs/Parole%20%C3%A0%20vivre%20d%C3%A9cembre%202025.pdf"
   },
   {
     "id": "cib-001",
     "titre": "Faire Part CIB",
-    "date": "2026",
-    "contenu": "G",
+    "date": "01 Juin 2026",
+    "contenu": "# Faire Part CIB",
     "pdf": "https://raw.githubusercontent.com/Luc28a/bondeko/main/pdfs/Faire%20Part%20CIB.pdf"
   }
 ]
