@@ -1,4 +1,16 @@
-{
-  "paroleVersion": 1,
-  "announcementVersion": 1
-}
+[
+  {
+    "id": "annonce-001",
+    "version": 1,
+    "title": "Assemblée paroissiale",
+    "message": "Tous les jeunes Bondeko sont attendus dimanche à 14h00.",
+    "date": "2026-01-12"
+  },
+  {
+    "id": "annonce-002",
+    "version": 2,
+    "title": "Retraite spirituelle",
+    "message": "Inscriptions ouvertes jusqu'au 25 février.",
+    "date": "2026-02-05"
+  }
+]
