@@ -13,7 +13,6 @@
     "message": "Inscriptions ouvertes jusqu'au 25 février.",
     "date": "2026-02-05"
   },
-  [
   {
     "id": "annonce-003",
     "version": 3,
@@ -21,5 +20,4 @@
     "message": "La réunion des jeunes Bondeko aura lieu ce dimanche à 14h00.",
     "date": "2026-08-02"
   }
-]
 ]
