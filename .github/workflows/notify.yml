@@ -4,25 +4,30 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "config.json"
+      - "paroles.json"
+      - "annonces.json"
 
 jobs:
   notify:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: "20"
 
-      - name: Install Firebase Admin
+      - name: Install dependencies
         run: npm install firebase-admin
 
-      - name: Restore Firebase Key
+      - name: Restore Firebase Service Account
         run: |
           echo '${{ secrets.FIREBASE_SERVICE_ACCOUNT }}' > firebase-key.json
 
-      - name: Send Notification
+      - name: Send FCM notification
         run: node .github/scripts/send_notification.js
