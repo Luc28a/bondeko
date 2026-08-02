@@ -1,5 +1,4 @@
 const admin = require("firebase-admin");
-
 const serviceAccount = require("../../firebase-key.json");
 
 admin.initializeApp({
@@ -23,9 +22,9 @@ admin
   .messaging()
   .send(message)
   .then((response) => {
-    console.log("Notification envoyée :", response);
+    console.log("✅ Notification envoyée :", response);
   })
   .catch((error) => {
-    console.error(error);
+    console.error("❌ Erreur :", error);
     process.exit(1);
   });
